@@ -136,6 +136,7 @@ li a
     text-decoration: none;
 }
 
+/*
 nav
 {
     float: right;
@@ -148,6 +149,7 @@ nav li
     display: inline-block;
     line-height: 80px;
 }
+*/
 
 section .section_image
 {

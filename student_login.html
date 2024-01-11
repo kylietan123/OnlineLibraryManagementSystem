@@ -15,22 +15,31 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+	<style type="text/css">
+		section
+		{
+			margin-top: -20px;
+		}
+	</style>
 </head>
 <body>
-	<header style="height: 80px">
-		<div class="logo">
-				<h1 style="color: white; font-size: 25px; word-spacing: 10px;line-height: 80px; margin-top: 20px;">网上图书管理系统</h1>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand active">网上图书馆管理系统</a>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">首页</a></li>
-					<li><a href="">书籍</a></li>
-					<li><a href="student_login.html">学生登陆</a></li>
-					<li><a href="registration.html">注册</a></li>
-					<li><a href="">反馈</a></li>
-				</ul>
-			</nav>
-	</header>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="">书籍</a></li>
+				<li><a href="">反馈</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="student_login.html"><span class="glyphicon glyphicon-log-in"> 登陆</span></a></li>
+				<li><a href="student_login.html"><span class="glyphicon glyphicon-log-out"> 退出</span></a></li>
+				<li><a href="registration.html"><span class="glyphicon glyphicon-user"> 注册</span></a></li>
+			</ul>
+		</div>
+	</nav>
 	<section>
 		<div class="login_image">
 			<br>
